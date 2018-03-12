@@ -35,14 +35,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > 'ls' lists the contents of the present working directory.
-> > The option -a ensures that all contents are revealed when executing 'ls', including hidden files that begin with . 
-> > The option -l creates a long-form version of the ls
-> > -lh: Options can be grouped. The option -lh calls the long-form option, as well as the option -h, which means human-readable. Human readable here means that numbers are printed with not too many digits, replaced instead by k, M, G, etc. 
-> > -lah: Same as above, but includes hidden files as well.
-> > -t: sorted by modification time.
-> > -Glp: p adds file type incidator, i.e. it adds / to end of folder names. G enables colorized output (making the folder names a different color). 
-  
+> - `ls` lists the contents of the present working directory.
+> -  The option `-a` ensures that all contents are revealed when executing `ls`, including hidden files that begin with `.` 
+> - The option `-l` creates a long-form version of `ls`
+> - `-lh`: Options can be grouped. The option `-lh` calls the long-form option, as well as the option `-h`, which means human-readable. Human readable here means that numbers are printed with not too many digits, replaced instead by k, M, G, etc. 
+> - `-lah`: Same as above, but includes hidden files as well.
+> - `-t`: sorted by modification time.
+> - `-Glp`: `p` adds file type incidator, i.e. it adds `/` to end of folder names. `G` enables colorized output (making the folder names a different color). 
 
 ---
 
