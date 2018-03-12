@@ -20,8 +20,27 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > - `pwd`: shows current directory path
+> > - `mkdir` [dirname]: creates directory. Add option `-p` to make multiple, nested directories.
+> > - `rmdir` or `rm -d|-r` `dirname`: Delete directories. `rmdir` is the safe choice to stay out of the trouble `rm` can cause. However, `rmdir` is less powerful (it will get stuck if a directory folder contains files). `rm` on the other hand, especially if deployed recursively (`-r`), will remove folders as well as files. 
+> > - `touch [filename]`: creates an empty file. 
+> > - `rm [filename]`: removes file.
+> > - `mv [file] [newfilename]`: renames file. 
+> > - `ls -a`: lists hidden files 
+> > - `cp [file][copydirectory]`: copies file to copydirectory.
+> > - `echo`: the print statement 
+> > - `man [utility]`: the help menu for utility.
+> > - `apropos`: find what `man` page is appropriate.
+> > - `find`: find files
+> > - `pushd` and `popd`: push and pop directories to be able to switch back and forth between different directory locations.
+> > - `grep`: find things inside files.
+> > - `env`: look at your environment.
+> > - `export`: export/set a new environment variable.
+> > - `exit`: exit the shell
+> > - `sudo`: 'super user do'--become super user root **danger**.
+> > - `xargs`: execute arguments.
+> > - `cat`: print the whole file.
+> > - `less`: page through a file.
 ---
 
 ### Q2.  List Files in Unix   
