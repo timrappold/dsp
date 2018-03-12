@@ -81,7 +81,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs`works like this: $ echo 'f1 f2 f3' | xargs mkdir
+> > creates three directories, f1, f2, f3 in a single command line.
+
 
  
 
