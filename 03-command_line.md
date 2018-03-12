@@ -50,11 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > -S sorts by size,
-> > -R recursively goes through the directory structure, revealing all the folders' and subfolders' contents,
-> > -1 prints directory contents with one entry per line,  
-> > -r reverses order
-> > -x inverts sorting order for tabular display (multicolumn output is sorted across, rather than down the columns).
+> - `-S` sorts by size
+> - `-R` recursively goes through the directory structure, revealing all the folders' and subfolders' contents,
+> - `-1` prints directory contents with one entry per line,  
+> - `-r` reverses order
+> - `-x` inverts sorting order for tabular display (multicolumn output is sorted across, rather than down the columns).
 ---
 
 ### Q4.  Xargs   
