@@ -33,6 +33,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > - `apropos`: find what `man` page is appropriate.
 > > - `find`: find files
 > > - `pushd` and `popd`: push and pop directories to be able to switch back and forth between different directory locations.
+> > - `dirs`: shows the directory stack built by pushd and popd.
 > > - `grep`: find things inside files.
 > > - `env`: look at your environment.
 > > - `export`: export/set a new environment variable.
