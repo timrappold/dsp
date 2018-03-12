@@ -35,7 +35,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls' lists the contents of the present working directory.
+> > The option -a ensures that all contents are revealed when executing 'ls', including hidden files that begin with . 
+> > The option -l creates a long-form version of the ls
+> > -lh: Options can be grouped. The option -lh calls the long-form option, as well as the option -h, which means human-readable. Human readable here means that numbers are printed with not too many digits, replaced instead by k, M, G, etc. 
+> > -lah: Same as above, but includes hidden files as well.
+> > -t: sorted by modification time.
+> > -Glp: p adds file type incidator, i.e. it adds / to end of folder names. G enables colorized output (making the folder names a different color). 
+  
 
 ---
 
@@ -43,8 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > -S sorts by size,
+> > -R recursively goes through the directory structure, revealing all the folders' and subfolders' contents,
+> > -1 prints directory contents with one entry per line,  
+> > -r reverses order
+> > -x inverts sorting order for tabular display (multicolumn output is sorted across, rather than down the columns).
 ---
 
 ### Q4.  Xargs   
