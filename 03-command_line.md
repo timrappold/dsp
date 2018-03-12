@@ -22,6 +22,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > - `pwd`: shows current directory path
 > > - `mkdir` [dirname]: creates directory. Add option `-p` to make multiple, nested directories.
+> > - `cd` and `cd -`: change directory. `cd -` allows you to toggle between the last two current directories.
 > > - `rmdir` or `rm -d|-r` `dirname`: Delete directories. `rmdir` is the safe choice to stay out of the trouble `rm` can cause. However, `rmdir` is less powerful (it will get stuck if a directory folder contains files). `rm` on the other hand, especially if deployed recursively (`-r`), will remove folders as well as files. 
 > > - `touch [filename]`: creates an empty file. 
 > > - `rm [filename]`: removes file.
